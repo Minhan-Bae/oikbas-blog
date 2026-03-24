@@ -1,42 +1,77 @@
 baseURL = "https://minhan-bae.github.io/oikbas-blog/"
-languageCode = "ko"
 title = "OIKBAS Lab"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
+# ── 다국어 설정 ──────────────────────────────────────
+[languages]
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 1
+    title = "OIKBAS Lab"
+    [languages.en.params]
+      description = "AI / VFX / Creative Tech Research & Projects"
+    [languages.en.params.homeInfoParams]
+      Title = "OIKBAS Lab"
+      Content = "Research notes and project logs on AI, VFX, and Creative Technology"
+    [[languages.en.menu.main]]
+      identifier = "research"
+      name = "Research"
+      url = "/tags/research/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "project"
+      name = "Project"
+      url = "/tags/project/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "archive"
+      name = "Archive"
+      url = "/archives/"
+      weight = 30
+
+  [languages.ko]
+    languageCode = "ko"
+    languageName = "Korean"
+    weight = 2
+    title = "OIKBAS Lab"
+    [languages.ko.params]
+      description = "AI / VFX / Creative Tech 기술 리서치와 프로젝트 기록"
+    [languages.ko.params.homeInfoParams]
+      Title = "OIKBAS Lab"
+      Content = "AI, VFX, Creative Technology에 대한 기술 리서치와 프로젝트 기록"
+    [[languages.ko.menu.main]]
+      identifier = "research"
+      name = "Research"
+      url = "/tags/research/"
+      weight = 10
+    [[languages.ko.menu.main]]
+      identifier = "project"
+      name = "Project"
+      url = "/tags/project/"
+      weight = 20
+    [[languages.ko.menu.main]]
+      identifier = "archive"
+      name = "Archive"
+      url = "/archives/"
+      weight = 30
+
+# ── 공통 파라미터 ────────────────────────────────────
 [params]
   author = "MinHan Bae"
-  description = "AI / VFX / Creative Tech"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
 
-[params.homeInfoParams]
-  Title = "OIKBAS Lab"
-  Content = "AI, VFX, Creative Technology에 대한 기술 리서치와 프로젝트 기록"
-
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/Minhan-Bae"
 
-[menu]
-  [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "/tags/research/"
-    weight = 10
-  [[menu.main]]
-    identifier = "project"
-    name = "Project"
-    url = "/tags/project/"
-    weight = 20
-  [[menu.main]]
-    identifier = "archive"
-    name = "Archive"
-    url = "/archives/"
-    weight = 30
-
+# ── 출력 & 마크다운 ─────────────────────────────────
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
