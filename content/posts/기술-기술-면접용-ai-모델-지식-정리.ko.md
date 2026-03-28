@@ -3,10 +3,10 @@ author: OIKBAS Auto-Publisher
 categories:
 - General
 cover:
-  alt: sticky notes
-  caption: Photo by [Jo Szczepanska](https://unsplash.com/photos/sticky-notes-bjemWZcNF34)
+  alt: question mark neon signage
+  caption: Photo by [Emily Morter](https://unsplash.com/photos/question-mark-neon-signage-8xAA0f9yQnE)
     on [Unsplash](https://unsplash.com)
-  image: https://images.unsplash.com/photo-1526378787940-576a539ba69d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDgzMTR8MHwxfHNlYXJjaHwxMHx8UmVzZWFyY2h8ZW58MHwwfHx8MTc3NDY3ODU0NHww&ixlib=rb-4.1.0&q=80&w=1080
+  image: https://images.unsplash.com/photo-1484069560501-87d72b0c3669?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDgzMTR8MHwxfHNlYXJjaHwxM3x8UmVzZWFyY2h8ZW58MHwwfHx8MTc3NDY4MTgwM3ww&ixlib=rb-4.1.0&q=80&w=1080
 date: '2025-12-15'
 draft: false
 slug: 기술-기술-면접용-ai-모델-지식-정리
