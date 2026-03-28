@@ -9,7 +9,7 @@ tags:
 - Research
 - domain/llm
 - domain/diffusion
-title: Untitled
+title: 1. Transformer 설명
 ---
 
 ## 1. Transformer 설명
