@@ -3,10 +3,10 @@ author: OIKBAS Auto-Publisher
 categories:
 - General
 cover:
-  alt: eyeglasses with gray frames on the top of notebook
-  caption: Photo by [Dan Dimmock](https://unsplash.com/photos/eyeglasses-with-gray-frames-on-the-top-of-notebook-3mt71MKGjQ0)
+  alt: sticky notes
+  caption: Photo by [Jo Szczepanska](https://unsplash.com/photos/sticky-notes-bjemWZcNF34)
     on [Unsplash](https://unsplash.com)
-  image: https://images.unsplash.com/photo-1501290741922-b56c0d0884af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDgzMTR8MHwxfHNlYXJjaHwxfHxSZXNlYXJjaHxlbnwwfDB8fHwxNzc0Njc3MTg2fDA&ixlib=rb-4.1.0&q=80&w=1080
+  image: https://images.unsplash.com/photo-1526378787940-576a539ba69d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDgzMTR8MHwxfHNlYXJjaHwxMHx8UmVzZWFyY2h8ZW58MHwwfHx8MTc3NDY3ODU0NHww&ixlib=rb-4.1.0&q=80&w=1080
 date: '2025-12-15'
 draft: false
 slug: 기술-기술-면접용-ai-모델-지식-정리
