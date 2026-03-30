@@ -2,6 +2,7 @@
 title: "5 Technology Convergence Patterns Found in AI Video/VFX R&D — Week 13, 2026 Analysis"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["AI", "VFX", "video-generation", "gaussian-splatting", "3D", "lip-sync", "diffusion-model", "convergence-analysis", "weekly-review"]
 categories: ["Analysis"]
 summary: "Five cross-convergence patterns discovered across 66 technology research notes. 3D proxy-based generative rendering, multimodal native generation, agentic 3D automation, spectral decomposition, and LLM code generation-based 3D control are converging into a single pipeline."

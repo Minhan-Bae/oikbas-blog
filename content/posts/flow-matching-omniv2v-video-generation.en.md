@@ -2,6 +2,7 @@
 title: "Beyond Diffusion: How Flow Matching Is Reshaping the Future of Video Generation"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["diffusion", "flow-matching", "video-generation", "paper-review", "OmniV2V"]
 categories: ["Research"]
 summary: "Flow Matching achieves high-quality generation via straight-line trajectories without costly ODE simulation, and OmniV2V integrates this into a unified video editing framework. An analysis connecting theory to application."

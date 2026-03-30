@@ -2,6 +2,8 @@
 title: "OIKBAS Lab 시작"
 date: 2026-03-24
 draft: false
+categories: [General]
+author: MinHanr
 tags: [project]
 summary: "AI/VFX 기술 리서치와 프로젝트 기록을 위한 블로그를 시작합니다."
 ---

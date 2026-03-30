@@ -2,6 +2,7 @@
 title: "4K 실시간 렌더링의 돌파구 — LGTM: 기하-텍스처 분리로 Gaussian Splatting의 해상도 한계를 넘다"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["gaussian-splatting", "3d-rendering", "real-time", "paper-review", "4K"]
 categories: ["Research"]
 summary: "Feed-Forward 3D Gaussian Splatting의 해상도 스케일링 한계를 돌파한 LGTM. 컴팩트 기하 프리미티브 + per-primitive 텍스처 분리로 4K에서도 프리미티브 수가 일정한 혁신적 접근을 분석합니다."

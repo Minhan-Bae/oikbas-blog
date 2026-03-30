@@ -2,6 +2,7 @@
 title: "Diffusion을 넘어서: Flow Matching이 바꾸는 비디오 생성의 미래"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["diffusion", "flow-matching", "video-generation", "paper-review", "OmniV2V"]
 categories: ["Research"]
 summary: "고비용 ODE 시뮬레이션 없이 직선 궤적으로 고품질 생성을 달성하는 Flow Matching, 그리고 이를 비디오 편집에 통합한 OmniV2V. 이론에서 응용까지의 연결을 분석합니다."

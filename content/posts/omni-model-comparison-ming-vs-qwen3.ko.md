@@ -2,6 +2,7 @@
 title: "효율 vs 성능, 2026년 Omni 모델의 두 갈래 — Ming-Omni와 Qwen3-Omni 비교 분석"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["multimodal", "omni-model", "MoE", "paper-review", "ai-trends"]
 categories: ["Research"]
 summary: "2.8B 경량 통합 생성 모델 Ming-Omni와 30B 초저지연 대화 모델 Qwen3-Omni. 같은 'Omni'를 지향하지만 완전히 다른 두 접근을 비교 분석합니다."

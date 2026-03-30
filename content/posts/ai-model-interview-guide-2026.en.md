@@ -2,6 +2,7 @@
 title: "Mastering AI Model Interviews in 2026 — 7 Essential Concepts from Transformer to RAG"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["ai-interview", "transformer", "diffusion", "MoE", "LoRA", "RLHF", "DPO", "RAG"]
 categories: ["Tutorial"]
 summary: "A structured guide to the 7 essential concepts that invariably appear in AI/ML interviews, organized as 'Why → What → How → Where.' Reflects the latest developments as of March 2026."

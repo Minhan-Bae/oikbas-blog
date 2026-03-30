@@ -2,6 +2,7 @@
 title: "LLMs Write Blender Code — LL3M: A Paradigm Shift in Multi-Agent 3D Modeling"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["3d-generation", "llm", "multi-agent", "blender", "paper-review"]
 categories: ["Research"]
 summary: "LL3M generates 3D assets by having an LLM agent team write Blender Python code — without any 3D data training. We analyze this new paradigm of code-based 3D generation."

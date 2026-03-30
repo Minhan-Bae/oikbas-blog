@@ -2,6 +2,7 @@
 title: "PromptVFX: 텍스트 한 줄로 3D 씬에 VFX를 입히는 시대 -- LLM이 Gaussian을 직접 조작한다"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["gaussian-splatting", "VFX", "LLM", "3d-animation", "paper-review", "real-time"]
 categories: ["Research"]
 summary: "물리 시뮬레이션도, Diffusion 반복도 없이 텍스트 프롬프트만으로 3D Gaussian Splatting 씬에 실시간 VFX를 적용하는 PromptVFX. LLM이 파라메트릭 함수를 생성하고, VLM이 품질을 검증하는 새로운 패러다임을 분석합니다."

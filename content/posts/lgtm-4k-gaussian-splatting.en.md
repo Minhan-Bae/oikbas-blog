@@ -2,6 +2,7 @@
 title: "A Breakthrough in 4K Real-Time Rendering — LGTM: Surpassing the Resolution Limits of Gaussian Splatting via Geometry-Texture Decomposition"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["gaussian-splatting", "3d-rendering", "real-time", "paper-review", "4K"]
 categories: ["Research"]
 summary: "LGTM breaks through the resolution scaling limits of Feed-Forward 3D Gaussian Splatting. We analyze this innovative approach that uses compact geometry primitives + per-primitive texture decomposition to keep the primitive count constant even at 4K."

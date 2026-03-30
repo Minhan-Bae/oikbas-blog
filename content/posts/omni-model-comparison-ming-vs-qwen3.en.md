@@ -2,6 +2,7 @@
 title: "Efficiency vs Performance: Two Diverging Paths for Omni Models in 2026 — A Comparative Analysis of Ming-Omni and Qwen3-Omni"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["multimodal", "omni-model", "MoE", "paper-review", "ai-trends"]
 categories: ["Research"]
 summary: "Ming-Omni, a 2.8B lightweight unified generation model, and Qwen3-Omni, a 30B ultra-low-latency conversational model. Both aim for 'Omni' but take entirely different approaches. We compare and analyze the two."

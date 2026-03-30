@@ -2,6 +2,7 @@
 title: "LLM이 Blender 코드를 쓴다 — LL3M: 멀티에이전트 3D 모델링의 패러다임 전환"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["3d-generation", "llm", "multi-agent", "blender", "paper-review"]
 categories: ["Research"]
 summary: "3D 데이터 학습 없이 LLM 에이전트 팀이 Blender Python 코드를 작성하여 3D 에셋을 생성하는 LL3M. 코드 기반 3D 생성이라는 새로운 패러다임을 분석합니다."

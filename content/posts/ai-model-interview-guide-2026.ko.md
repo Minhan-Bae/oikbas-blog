@@ -2,6 +2,7 @@
 title: "2026년 AI 모델 면접 완전정복 — Transformer부터 RAG까지 7대 핵심 개념"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["ai-interview", "transformer", "diffusion", "MoE", "LoRA", "RLHF", "DPO", "RAG"]
 categories: ["Tutorial"]
 summary: "AI/ML 면접에서 반드시 나오는 7가지 핵심 개념을 '왜 → 무엇을 → 어떻게 → 어디에' 구조로 정리합니다. 2026년 3월 기준 최신 발전 사항을 반영했습니다."

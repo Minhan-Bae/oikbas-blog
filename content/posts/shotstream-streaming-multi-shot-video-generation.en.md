@@ -2,6 +2,7 @@
 title: "ShotStream: Generating Multi-Shot Video via Real-Time Streaming — Opening a New Chapter in Interactive Storytelling"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["video-generation", "multi-shot", "streaming", "diffusion", "distillation", "paper-review"]
 categories: ["Research"]
 summary: "ShotStream breaks through the high latency and non-interactive limitations of conventional bidirectional multi-shot video generation. We analyze the causal streaming architecture that achieves 16 FPS and sub-second latency on a single GPU using Distribution Matching Distillation and dual cache memory."

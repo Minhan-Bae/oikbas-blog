@@ -2,6 +2,7 @@
 title: "PromptVFX: The Era of Applying VFX to 3D Scenes with a Single Line of Text -- LLMs Directly Manipulate Gaussians"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["gaussian-splatting", "VFX", "LLM", "3d-animation", "paper-review", "real-time"]
 categories: ["Research"]
 summary: "PromptVFX applies real-time VFX to 3D Gaussian Splatting scenes using only text prompts — no physics simulation, no Diffusion iterations. We analyze this new paradigm where LLMs generate parametric functions and VLMs verify quality."

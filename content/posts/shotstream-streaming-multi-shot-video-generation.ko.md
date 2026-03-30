@@ -2,6 +2,7 @@
 title: "ShotStream: 실시간 스트리밍으로 멀티샷 비디오를 생성하다 -- 인터랙티브 스토리텔링의 새 장을 열다"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["video-generation", "multi-shot", "streaming", "diffusion", "distillation", "paper-review"]
 categories: ["Research"]
 summary: "기존 양방향 멀티샷 비디오 생성의 고지연과 비인터랙티브 한계를 돌파하는 ShotStream. Distribution Matching Distillation과 듀얼 캐시 메모리로 단일 GPU에서 16 FPS, sub-second latency를 달성한 인과적 스트리밍 아키텍처를 분석합니다."

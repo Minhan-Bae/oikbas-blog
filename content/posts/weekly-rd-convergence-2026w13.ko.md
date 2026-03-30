@@ -2,6 +2,7 @@
 title: "AI Video/VFX R&D에서 발견한 5가지 기술 수렴 패턴 — 2026년 13주차 분석"
 date: 2026-03-28
 draft: false
+author: MinHanr
 tags: ["AI", "VFX", "video-generation", "gaussian-splatting", "3D", "lip-sync", "diffusion-model", "convergence-analysis", "weekly-review"]
 categories: ["Analysis"]
 summary: "66건의 기술 리서치 노트에서 발견한 5가지 교차 수렴 패턴. 3D 프록시 기반 제너레이티브 렌더링, 멀티모달 네이티브 생성, 에이전틱 3D 자동화, 스펙트럴 분해, LLM 코드 생성 기반 3D 제어가 하나의 파이프라인으로 수렴하고 있다."
