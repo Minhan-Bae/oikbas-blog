@@ -77,7 +77,7 @@ In 2026, Gaussian Splatting is transitioning from "research demo" to "production
 
 ---
 
-*This post was written based on research notes from the OIKBAS vault.*
+*This post was written based on research notes from the personal knowledge system vault.*
 
 Sources:
 - [arXiv: 2603.25745v1](https://arxiv.org/abs/2603.25745v1)

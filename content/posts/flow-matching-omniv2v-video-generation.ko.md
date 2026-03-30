@@ -94,4 +94,4 @@ Flow Matching이 제공한 **수학적 효율성**(훈련 시간 단축 + 직선
 
 ---
 
-*이 글은 OIKBAS 볼트의 연구 노트를 기반으로 작성되었습니다.*
+*이 글은 personal knowledge system 볼트의 연구 노트를 기반으로 작성되었습니다.*

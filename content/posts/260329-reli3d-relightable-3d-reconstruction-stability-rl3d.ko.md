@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 date: '2026-03-29'
@@ -7,8 +7,6 @@ draft: false
 slug: 260329-reli3d-relightable-3d-reconstruction-stability-rl3d
 tags:
 - AI_R&D_Paper
-- domain/rendering
-- domain/3D
 - tech/gaussian-splatting
 - tech/3d-generation
 title: 'ReLi3D: Relightable Multi-view 3D Reconstruction with Disentangled Illumination'
@@ -63,13 +61,13 @@ title: 'ReLi3D: Relightable Multi-view 3D Reconstruction with Disentangled Illum
 3. **Stability AI 공식 릴리스:** MIT 라이선스 + HuggingFace 모델 → 상용 활용 가능
 4. **ICLR 2026 채택:** 학술적 검증 완료
 
-## 나에게 주는 시사점
+## Practical Implications
 
-PathFinder 프로젝트에 직접적 영향. 현재 3DGS 기반 렌더링은 고정 조명 조건에서만 동작하는 한계가 있었는데, ReLi3D의 PBR material 분리 + HDR environment 추정은 **조명 변경이 필요한 VFX 워크플로우**에 핵심 모듈이 될 수 있음.
+our rendering research project 프로젝트에 직접적 영향. 현재 3DGS 기반 렌더링은 고정 조명 조건에서만 동작하는 한계가 있었는데, ReLi3D의 PBR material 분리 + HDR environment 추정은 **조명 변경이 필요한 VFX 워크플로우**에 핵심 모듈이 될 수 있음.
 
 특히:
 - Sparse multi-view (소수 카메라)에서 동작 → **현장 촬영 데이터로 즉시 활용 가능**
 - MIT 라이선스 → 상용 프로젝트에 제약 없음
 - 1초 미만 추론 → 실시간에 가까운 파이프라인 구성 가능
 
-기존 Gaussian Splatting 파이프라인의 **material-agnostic 한계를 극복**하는 접근으로, PathFinder에서 relightable asset 생성 모듈로 통합을 검토할 필요 있음.
+기존 Gaussian Splatting 파이프라인의 **material-agnostic 한계를 극복**하는 접근으로, our rendering research project에서 relightable asset 생성 모듈로 통합을 검토할 필요 있음.

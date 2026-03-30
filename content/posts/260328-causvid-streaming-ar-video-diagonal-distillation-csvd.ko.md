@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 date: '2026-03-28'
@@ -7,7 +7,6 @@ draft: false
 slug: 260328-causvid-streaming-ar-video-diagonal-distillation-csvd
 tags:
 - AI_R&D_Paper
-- domain/video-generation
 - tech/T2V
 - tech/attention
 title: 'CausVid: Streaming Autoregressive Video Generation via Diagonal Distillation'
@@ -53,11 +52,11 @@ Previous Chunks (clean) → Current Chunk (noisy) → Diagonal Forcing
 → Streaming output (chunk-by-chunk)
 ```
 
-## 나에게 주는 시사점
+## Practical Implications
 
-**Memesis 프로젝트의 실시간 생성 방향에 핵심 참조.**
+**our video generation project 프로젝트의 실시간 생성 방향에 핵심 참조.**
 
-1. **실시간 비디오 생성의 현실화** — Bidirectional DiT를 causal로 변환하는 distillation은 ComfyUI 실시간 프리뷰나 인터랙티브 생성에 직접 적용 가능. 현재 Memesis 파이프라인은 전체 클립을 한 번에 생성하는데, chunk-by-chunk 스트리밍이 가능하면 UX가 근본적으로 바뀜
+1. **실시간 비디오 생성의 현실화** — Bidirectional DiT를 causal로 변환하는 distillation은 ComfyUI 실시간 프리뷰나 인터랙티브 생성에 직접 적용 가능. 현재 our video generation project 파이프라인은 전체 클립을 한 번에 생성하는데, chunk-by-chunk 스트리밍이 가능하면 UX가 근본적으로 바뀜
 2. **Diagonal Forcing 기법** — Teacher Forcing과 Diffusion Forcing의 한계를 동시에 극복하는 깔끔한 해법. 향후 우리 모델 학습 시 직접 적용 검토
 3. **Spectrum과 조합 가능성** — Spectrum(feature forecasting으로 step 수 감소) + CausVid(autoregressive streaming) 조합이 가능하다면, 실시간 interactive T2V에 매우 근접
 4. **게임/VR 시뮬레이션 연결** — chunk-by-chunk 생성은 HiggsField의 인터랙티브 캐릭터 시나리오에도 적합

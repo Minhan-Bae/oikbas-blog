@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 cover:
@@ -9,12 +9,10 @@ cover:
 date: '2026-03-28'
 draft: false
 slug: 260328-foveated-diffusion-efficient-spatially-adaptive-video-generation
-summary: 시선 추적 기반 비균일 토큰 할당으로 디퓨전 생성 효율을 획기적으로 개선. Memesis의 인터랙티브 비디오 생성이나 PathFinder의
+summary: 시선 추적 기반 비균일 토큰 할당으로 디퓨전 생성 효율을 획기적으로 개선. our video generation project의 인터랙티브 비디오 생성이나 our rendering research project의
   실시간 렌더링 목표에 효율화 전략으로 참조.
 tags:
 - AI_R&D_Paper
-- domain/video
-- domain/diffusion
 title: 'Foveated Diffusion: Efficient Spatially Adaptive Image and Video Generation'
 ---
 
@@ -41,10 +39,6 @@ title: 'Foveated Diffusion: Efficient Spatially Adaptive Image and Video Generat
 **발표일**: 2026-03-24
 **프로젝트 페이지**: https://bchao1.github.io/foveated-diffusion
 
-## R&D 적용 가능성
-
-Memesis SaaS에서 인터랙티브 비디오 생성(사용자가 실시간으로 결과를 확인하며 편집)이 궁극적 목표. Foveated Diffusion은 "사용자가 보는 곳만 고품질"이라는 효율화 전략으로, VR/AR 기반 콘텐츠 프리뷰나 실시간 스트리밍 비디오 생성에 적합. PathFinder의 120fps 실시간 렌더링 목표에서도 토큰 효율화 기법으로 참조 가치. 다만 시선 추적 하드웨어 의존성이 있어 범용 적용에는 제약. 시선 추적 없이도 화면 중앙에 고토큰 밀도를 할당하는 정적 foveation 변형이 가능하며, 이 경우 웹 기반 Memesis 인터페이스에서도 적용할 수 있다.
-
 ## 출처
 
 | 플랫폼 | 링크 |
@@ -55,5 +49,5 @@ Memesis SaaS에서 인터랙티브 비디오 생성(사용자가 실시간으로
 ---
 
 ## Related Notes
-- Memesis -- 영상 생성 SaaS 프로젝트
+- our video generation project -- 영상 생성 SaaS 프로젝트
 - 260328_ViBe_Ultra_High_Resolution_Video_Synthesis -- 4K 초고해상도 비디오 생성

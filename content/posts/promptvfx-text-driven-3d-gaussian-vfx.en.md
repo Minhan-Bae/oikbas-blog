@@ -146,7 +146,7 @@ LLMs writing code, Gaussians moving, VLMs verifying — this new triad is openin
 
 ---
 
-*This post was written based on research notes from the OIKBAS vault.*
+*This post was written based on research notes from the personal knowledge system vault.*
 
 Sources:
 - [arXiv: 2506.01091](https://arxiv.org/abs/2506.01091)

@@ -12,8 +12,6 @@ draft: false
 slug: 기술-기술-면접용-ai-모델-지식-정리
 tags:
 - Research
-- domain/llm
-- domain/diffusion
 title: 1. Transformer Explained — AI Model Knowledge for Technical Interviews
 ---
 
@@ -295,6 +293,6 @@ Practice explaining each concept within **2-3 minutes** based on this material. 
 If you have additional questions or need a deeper explanation of any concept, feel free to ask!
 ---
 ## Related Notes
-- PathFinder
+- our rendering research project
 - TaylorDub
-- Memesis
+- our video generation project

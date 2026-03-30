@@ -1,5 +1,5 @@
 ---
-title: "OIKBAS Lab 시작"
+title: "personal knowledge system Lab 시작"
 date: 2026-03-24
 draft: false
 categories: [General]
@@ -8,7 +8,7 @@ tags: [project]
 summary: "AI/VFX 기술 리서치와 프로젝트 기록을 위한 블로그를 시작합니다."
 ---
 
-## OIKBAS Lab
+## personal knowledge system Lab
 
 AI, VFX, Creative Technology 분야의 기술 리서치와 프로젝트 회고를 기록하는 공간입니다.
 

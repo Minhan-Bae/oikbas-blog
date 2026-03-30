@@ -1,17 +1,15 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Trends
 date: '2026-03-28'
 draft: false
 slug: 260328-llm-houdini-agentic-procedural-3d
-summary: Houdini-MCP 통합과 SAGE/SceneAssistant의 에이전틱 3D 생성 패러다임은 3DAgent의 LLM→Houdini
+summary: Houdini-MCP 통합과 SAGE/SceneAssistant의 에이전틱 3D 생성 패러다임은 our 3D automation project의 LLM→Houdini
   코드 생성 파이프라인 설계에 직접적 아키텍처 참조. EPC 2026의 ML-in-Houdini 마스터클래스가 ONNX 기반 프로덕션 배포 경로를
   제시.
 tags:
 - AI_Trend
-- domain/3d
-- domain/llm
 title: LLM 기반 Houdini 에이전틱 프로시저럴 3D 생성 — MCP 통합과 에이전트 아키텍처의 수렴
 ---
 
@@ -81,24 +79,6 @@ SideFX의 Everything Procedural Conference(EPC) 2026(4월 9-10일)에서 Josh Ka
 - 2D/3D 프로덕션 태스크에 ML 적용
 
 또한 Bogdan Lazar(CG Supervisor)의 "Rigging and Animating Gaussian Data" 세션에서 Gaussian Splatting 포인트클라우드를 KineFX/APEX를 통해 애니메이션 가능 에셋으로 변환하는 워크플로가 시연된다.
-
-## R&D 적용 가능성
-
-### 3DAgent 프로젝트 직접 적용
-
-1. **Houdini-MCP 기반 코드 생성 파이프라인**: 3DAgent의 핵심인 "LLM → Houdini 코드 생성"에서, 직접 코드 생성 대신 MCP 서버를 통한 구조화된 도구 호출 방식을 채택하면 안정성과 재현성이 크게 향상. SAGE의 MCP 기반 도구 호출 패턴을 직접 참조 가능.
-
-2. **Generator-Critic + VLM 2단 검증**: SAGE의 텍스트 기반 Critic + SceneAssistant의 VLM 시각 피드백을 결합한 2단 품질 검증 루프 설계. 이는 지난 주간 수렴 분석(260328)의 교차점 3에서 식별한 "생성→검증→인코딩" 3단 구조와 정확히 부합.
-
-3. **ONNX 프로덕션 배포**: EPC 2026의 ONNX 통합 접근법을 따르면, 학습된 3DAgent 모델을 Houdini 노드로 직접 배포하여 아티스트 워크플로에 통합 가능. Houdini의 네이티브 노드 시스템 내에서 추론이 실행되므로 별도 서버 불필요.
-
-4. **LL3M → HoudiniRAG 전환 가속**: LL3M(Large Language 3D Modelers)의 plan→retrieve→write→debug→refine 파이프라인을 Houdini RAG 기반으로 전환하는 PoC에서, Houdini AI Assistant의 멀티 프로바이더 아키텍처와 씬 컨텍스트 인식 기능을 기반 인프라로 활용 가능.
-
-### 한계 및 고려사항
-
-- Houdini-MCP 서버의 통신 오버헤드 자체는 낮으나, 복잡한 유체 시뮬레이션 등 Houdini 자체 처리에서 병목 발생 가능
-- SAGE의 10,000 씬 데이터셋은 실내 씬 중심이므로, VFX 프로덕션의 다양한 씬 유형(외부, 판타지 등)으로의 일반화 검증 필요
-- Houdini AI Assistant가 v0.1.5로 초기 단계이며, 프로덕션 안정성 검증 미비
 
 ## 출처
 

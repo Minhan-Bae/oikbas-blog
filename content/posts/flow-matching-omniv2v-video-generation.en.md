@@ -94,4 +94,4 @@ In 2026, the next chapter beyond Diffusion has already begun. The mathematical e
 
 ---
 
-*This article was written based on research notes from the OIKBAS vault.*
+*This article was written based on research notes from the personal knowledge system vault.*

@@ -169,7 +169,7 @@ In 2026, video generation is evolving from "a tool where you wait for results" t
 
 ---
 
-*This article was written based on research notes from the OIKBAS vault.*
+*This article was written based on research notes from the personal knowledge system vault.*
 
 Sources:
 - [arXiv: 2603.25746v1](https://arxiv.org/abs/2603.25746v1)

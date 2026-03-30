@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 date: '2026-03-28'
@@ -7,7 +7,6 @@ draft: false
 slug: 260328-spectrum-trainingfree-dit-accelerator-spec
 tags:
 - AI_R&D_Paper
-- domain/video-generation
 - tech/T2I
 - tech/T2V
 - tech/attention
@@ -53,13 +52,13 @@ Diffusion Steps → Chebyshev Polynomial Fitting → Ridge Regression
 → 50 steps → ~10 actual model evaluations
 ```
 
-## 나에게 주는 시사점
+## Practical Implications
 
-**Memesis 프로젝트에 직접적 임팩트.** ComfyUI 기반 영상 생성 파이프라인에서 가장 큰 병목은 DiT 모델의 추론 시간이다. Spectrum은:
+**our video generation project 프로젝트에 직접적 임팩트.** ComfyUI 기반 영상 생성 파이프라인에서 가장 큰 병목은 DiT 모델의 추론 시간이다. Spectrum은:
 
 1. **FLUX.1에 4.79× 가속** — ComfyUI에서 FLUX 워크플로우 사용 시 추론 시간을 1/5로 단축 가능
 2. **Wan2.1-14B에 4.67× 가속** — HiggsField 기반 비디오 생성에 바로 적용 가능
 3. **Training-free** — 모델 재학습 없이 기존 파이프라인에 플러그인 방식 적용
 4. **코드 공개(GitHub)** — 즉시 실험 가능
 
-TurboDiffusion(하드웨어 최적화)과 결합하면 multiplicative 효과 기대. NVFP4 + Spectrum 조합으로 RTX 5090에서 실시간 T2V에 근접할 수 있다. ComfyUI 커스텀 노드로 래핑하여 Memesis 파이프라인에 통합하는 것이 다음 단계.
+TurboDiffusion(하드웨어 최적화)과 결합하면 multiplicative 효과 기대. NVFP4 + Spectrum 조합으로 RTX 5090에서 실시간 T2V에 근접할 수 있다. ComfyUI 커스텀 노드로 래핑하여 our video generation project 파이프라인에 통합하는 것이 다음 단계.

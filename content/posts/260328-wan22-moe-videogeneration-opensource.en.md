@@ -8,8 +8,6 @@ slug: 260328-wan22-moe-videogeneration-opensource
 summary: "Wan2.2 brings MoE to video diffusion for the first time — 27B params, only 14B active per token, Apache 2.0 licensed. Open-source video generation just caught up to commercial APIs."
 tags:
 - AI_Trend
-- domain/video
-- domain/diffusion
 title: "Open-Source Video Generation Just Got Serious: Wan2.2's MoE Architecture Changes the Game"
 ---
 

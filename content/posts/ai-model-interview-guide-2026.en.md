@@ -228,4 +228,4 @@ You can deliver logical, complete answers by structuring every concept in these 
 
 ---
 
-*This article was written based on research notes from the OIKBAS vault. As of March 2026.*
+*This article was written based on research notes from the personal knowledge system vault. As of March 2026.*

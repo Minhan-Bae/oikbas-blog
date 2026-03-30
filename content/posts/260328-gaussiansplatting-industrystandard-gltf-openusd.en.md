@@ -8,8 +8,6 @@ slug: 260328-gaussiansplatting-industrystandard-gltf-openusd
 summary: "Gaussian Splatting just got its glTF extension, OpenUSD schema, and Nuke 17.0 support — all in the same quarter. The research-to-production gap is officially closing."
 tags:
 - AI_Trend
-- domain/rendering
-- domain/3d
 title: "Gaussian Splatting Just Became a First-Class Citizen in Production Pipelines"
 ---
 

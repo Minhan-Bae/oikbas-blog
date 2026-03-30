@@ -12,8 +12,6 @@ draft: false
 slug: 기술-기술-면접용-ai-모델-지식-정리
 tags:
 - Research
-- domain/llm
-- domain/diffusion
 title: 1. Transformer 설명
 ---
 
@@ -295,6 +293,6 @@ Loss = E[||ε - ε_θ(xₜ, t)||²]
 추가로 궁금한 부분이나 더 깊이 있는 설명이 필요한 개념이 있으면 말씀해주세요!
 ---
 ## Related Notes
-- PathFinder
+- our rendering research project
 - TaylorDub
-- Memesis
+- our video generation project

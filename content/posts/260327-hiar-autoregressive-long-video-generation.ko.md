@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 cover:
@@ -11,7 +11,6 @@ draft: false
 slug: 260327-hiar-autoregressive-long-video-generation
 tags:
 - AI_R&D_Paper
-- domain/memesis
 title: 'HiAR: Efficient Autoregressive Long Video Generation via Hierarchical Denoising'
 ---
 
@@ -48,23 +47,3 @@ title: 'HiAR: Efficient Autoregressive Long Video Generation via Hierarchical De
 
 HiAR의 계층적 디노이징 전략은 오토리그레시브 비디오 생성에서 **temporal drift 문제를 구조적으로 해결**한 첫 번째 접근법이라는 점에서 중요한 전환점이다. Drift가 0.257로 CausVid(0.842)의 1/3 수준이라는 것은 20초 이상의 장편 생성에서도 시각적 일관성을 유지할 수 있음을 의미한다.
 
-## R&D 적용 가능성
-
-### Memesis 프로젝트 직접 적용
-
-**1. 장시간 영상 생성 파이프라인 핵심 모듈**:
-Memesis의 SaaS 파이프라인에서 비디오 생성 노드의 핵심 백엔드로 HiAR를 채택할 수 있다. 현재 대부분의 비디오 생성 모델은 4-6초 클립에 한정되나, HiAR의 20초+ 생성 능력은 실제 콘텐츠 제작에 필요한 최소 길이를 충족한다.
-
-**2. ReactFlow 노드 설계에 대한 함의**:
-HiAR의 청크 단위 오토리그레시브 구조는 ReactFlow 노드 그래프에서 **청크별 미리보기 + 점진적 렌더링** 워크플로우를 자연스럽게 지원한다. 각 청크의 디노이징 과정을 노드로 시각화하면 사용자가 중간 결과를 확인하고 분기점을 만들 수 있다.
-
-**3. 실시간 스트리밍 가능성**:
-30fps 처리량과 0.30초 레이턴시는 준-실시간 스트리밍 생성을 가능하게 한다. Memesis의 멀티샷 시퀀싱(ShotStream 연동)에서 각 샷을 HiAR로 생성하면, 연속적인 스토리 영상을 실시간에 가까운 속도로 프리뷰할 수 있다.
-
-**4. Foley 파이프라인 연동**:
-HiAR가 생성한 장시간 영상에 ThinkSound/PrismAudio를 적용하면, 영상 생성→Foley 합성의 end-to-end 파이프라인이 완성된다. temporal drift가 낮다는 것은 Foley 동기화의 정확도도 높아진다는 의미이다.
-
-**5. 기술적 통합 전략**:
-- Phase 2(Q3)에서 HiAR를 Memesis 비디오 생성 노드에 통합
-- Pipeline-Parallel Inference를 서버 인프라에 구현하여 다수 사용자 동시 생성 지원
-- Forward-KL Regularization 기법을 자사 커스텀 모델 학습에도 적용하여 모션 다양성 확보

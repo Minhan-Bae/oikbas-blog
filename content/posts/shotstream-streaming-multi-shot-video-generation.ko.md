@@ -169,7 +169,7 @@ ShotStream: 사용자가 프롬프트를 입력 → 즉시 생성 시작 → 진
 
 ---
 
-*이 글은 OIKBAS 볼트의 연구 노트를 기반으로 작성되었습니다.*
+*이 글은 personal knowledge system 볼트의 연구 노트를 기반으로 작성되었습니다.*
 
 Sources:
 - [arXiv: 2603.25746v1](https://arxiv.org/abs/2603.25746v1)

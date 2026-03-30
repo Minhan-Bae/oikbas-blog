@@ -100,7 +100,7 @@ LL3M represents a paradigm shift from "AI generates 3D" to "AI generates 3D **co
 
 ---
 
-*This post was written based on research notes from the OIKBAS vault.*
+*This post was written based on research notes from the personal knowledge system vault.*
 
 Sources:
 - [arXiv: 2508.08228](https://arxiv.org/abs/2508.08228)

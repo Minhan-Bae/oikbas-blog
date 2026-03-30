@@ -108,4 +108,4 @@ Both models still have challenges to address:
 
 ---
 
-*This post was written based on research notes from the OIKBAS vault.*
+*This post was written based on research notes from the personal knowledge system vault.*

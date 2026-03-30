@@ -1,16 +1,14 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 date: '2026-03-28'
 draft: false
 slug: 260328-megaflow-zero-shot-large-displacement-optical-flow
-summary: Zero-shot 대변위 optical flow. PathFinder VFX 모션벡터 추출, Memesis 프레임간 대응점 매칭에
+summary: Zero-shot 대변위 optical flow. our rendering research project VFX 모션벡터 추출, our video generation project 프레임간 대응점 매칭에
   활용 가능. 범용 적용성이 핵심 강점.
 tags:
 - AI_R&D_Paper
-- domain/rendering
-- domain/multimodal
 title: 'MegaFlow: Zero-Shot Large Displacement Optical Flow'
 ---
 
@@ -32,11 +30,6 @@ title: 'MegaFlow: Zero-Shot Large Displacement Optical Flow'
 
 Zero-shot 대변위 optical flow는 VFX 산업에서 특히 빠른 카메라 이동, 급격한 장면 전환, 폭발 등 대변위 시나리오에서 모션 벡터 추출의 신뢰도를 크게 향상시킨다. 기존 방법들이 실패하는 100+ 픽셀 이상의 대변위에서도 안정적 추정이 가능하다는 점은 프로덕션 파이프라인의 자동화 수준을 한 단계 끌어올린다.
 
-## R&D 적용 가능성
-
-- PathFinder의 VFX 파이프라인에서 모션 벡터 추출 및 장면 흐름 분석에 직접 활용 가능. 도메인 특화 파인튜닝 없이 범용 적용 가능한 점이 핵심 장점. 특히 AOV 기반 렌더링에서 모션 벡터 패스와의 정합성 검증에 reference로 사용 가능하다.
-- Memesis의 비디오 편집 노드에서 프레임 간 대응점 매칭 정확도 향상에 기여 가능. 사용자가 편집 포인트를 지정할 때 대변위 프레임 간에도 안정적인 트래킹을 제공할 수 있다.
-
 ## 출처
 
 | 플랫폼 | 링크 |
@@ -46,5 +39,5 @@ Zero-shot 대변위 optical flow는 VFX 산업에서 특히 빠른 카메라 이
 
 ---
 ## Related Notes
-- PathFinder
-- Memesis
+- our rendering research project
+- our video generation project

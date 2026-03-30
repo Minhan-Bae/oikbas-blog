@@ -1,16 +1,14 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Trends
 date: '2026-03-28'
 draft: false
 slug: 260328-gaussiansplatting-industrystandard-gltf-openusd
-summary: Khronos glTF + OpenUSD 26.03의 Gaussian Splatting 표준화는 PathFinder의 3DGS 기반
+summary: Khronos glTF + OpenUSD 26.03의 Gaussian Splatting 표준화는 our rendering research project의 3DGS 기반
   실시간 렌더링 파이프라인에 산업 표준 호환성을 부여. Nuke 17.0 공식 지원으로 VFX 프로덕션 워크플로 직접 통합 경로 확보.
 tags:
 - AI_Trend
-- domain/rendering
-- domain/3d
 title: Gaussian Splatting 산업 표준화 — glTF 확장, OpenUSD 26.03, Nuke 17.0 공식 지원
 ---
 
@@ -67,24 +65,6 @@ ICLR 2026에서 발표된 Mobile-GS는 모바일 디바이스에서의 실시간
 - **Apartments.com + Matterport**: 외부 3DGS 캡처 지원
 - **2026 밀라노 올림픽**: 스키, 하키, 피겨 스케이팅 중계에 3DGS 적용
 - **Proof Inc.**: 《쥬라기 월드》 프리비주얼라이제이션에 3DGS 활용
-
-## R&D 적용 가능성
-
-### PathFinder 프로젝트 직접 적용
-
-1. **OpenUSD 기반 하이브리드 렌더링**: PathFinder의 AOV 분해 파이프라인에서 OpenUSD 26.03의 3DGS 스키마를 활용하면, CG 자산과 3DGS 캡처 자산을 동일 씬 그래프에서 처리 가능. AOV 분해 렌더링과 3DGS 실시간 렌더링의 하이브리드 워크플로 설계 근거 확보.
-
-2. **Nuke 17.0 통합**: PathFinder의 VFX 합성 파이프라인에서 Nuke의 공식 3DGS 지원을 활용하여, 디퓨전 기반 리라이팅 결과를 3DGS 프록시와 합성하는 워크플로 구현 가능.
-
-3. **120fps 실시간 목표**: 현재 1080p에서 100~200+ FPS 달성 가능하므로, PathFinder의 120fps 실시간 렌더링 목표는 하드웨어 제약이 아닌 파이프라인 설계 문제로 전환. Foveated Diffusion과 결합하면 목표 달성 현실성 높음.
-
-4. **OctaneRender 풀 패스 트레이싱**: 스플랫에 PBR 조명을 적용할 수 있게 되면서, PathFinder의 리라이팅 파이프라인에서 3DGS 기반 프록시의 조명 일관성이 크게 향상될 전망.
-
-### 한계 및 고려사항
-
-- glTF/OpenUSD 스키마가 아직 릴리스 후보 단계이므로, 프로덕션 도입 전 스펙 확정 필요
-- Mobile-GS의 구체적 벤치마크(모바일 FPS, 메모리 사용량)는 논문 상세 검토 후 확인 필요
-- VFX 프로덕션에서의 3DGS 품질은 전통 CG 렌더링 대비 아직 열위한 영역(반사, 투과) 존재
 
 ## 출처
 

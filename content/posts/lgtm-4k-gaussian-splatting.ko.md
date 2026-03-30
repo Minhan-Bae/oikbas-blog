@@ -77,7 +77,7 @@ LGTM이 VFX 현장에 미치는 영향은 직접적입니다:
 
 ---
 
-*이 글은 OIKBAS 볼트의 연구 노트를 기반으로 작성되었습니다.*
+*이 글은 personal knowledge system 볼트의 연구 노트를 기반으로 작성되었습니다.*
 
 Sources:
 - [arXiv: 2603.25745v1](https://arxiv.org/abs/2603.25745v1)

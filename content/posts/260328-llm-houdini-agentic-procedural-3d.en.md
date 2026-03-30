@@ -8,8 +8,6 @@ slug: 260328-llm-houdini-agentic-procedural-3d
 summary: "Three independent developments — Houdini-MCP servers, NVIDIA SAGE, and VLM-based scene critics — are converging into a single paradigm where natural language drives procedural 3D generation with autonomous quality control."
 tags:
 - AI_Trend
-- domain/3d
-- domain/llm
 title: "The End of Manual Node Wiring? How LLMs Are Rewriting Houdini's Playbook"
 ---
 

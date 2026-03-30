@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 date: '2026-03-29'
@@ -7,8 +7,6 @@ draft: false
 slug: 260329-vega-3d-video-generative-awareness-3d-scene-understanding
 tags:
 - AI_R&D_Paper
-- domain/3d-generation
-- domain/multimodal
 - tech/3d-generation
 - tech/attention
 title: 'VEGA-3D: Generation Models Know Space — Unleashing Implicit 3D Priors for
@@ -59,12 +57,12 @@ VEGA-3D는 **사전학습된 비디오 디퓨전 모델을 "Latent World Simulat
 | 라이선스 | Apache-2.0 |
 | 요구사양 | Flash Attention 2.7+ / CUDA 12.1 / PyTorch 2.4.0 / 대형 GPU 추정 (A100급) |
 
-## 나에게 주는 시사점
+## Practical Implications
 
-**PathFinder 프로젝트**에 직접 적용 가능한 핵심 인사이트: 비디오 생성 모델이 이미 3D 공간 구조를 내재적으로 학습하고 있다는 점. 이는 별도의 3D 재구성 파이프라인 없이도 비디오 모델로부터 3D 프라이어를 추출하여 장면 이해에 활용할 수 있음을 의미한다.
+**our rendering research project 프로젝트**에 직접 적용 가능한 핵심 인사이트: 비디오 생성 모델이 이미 3D 공간 구조를 내재적으로 학습하고 있다는 점. 이는 별도의 3D 재구성 파이프라인 없이도 비디오 모델로부터 3D 프라이어를 추출하여 장면 이해에 활용할 수 있음을 의미한다.
 
-**Memesis 프로젝트**와의 연결: 비디오 생성 워크플로우에서 3D 일관성을 확보하는 데 이 프레임워크의 Latent World Simulator 접근법을 참고할 수 있다. 생성된 비디오의 공간적 정합성을 자동 검증하는 모듈로 활용 가능.
+**our video generation project 프로젝트**와의 연결: 비디오 생성 워크플로우에서 3D 일관성을 확보하는 데 이 프레임워크의 Latent World Simulator 접근법을 참고할 수 있다. 생성된 비디오의 공간적 정합성을 자동 검증하는 모듈로 활용 가능.
 
-**3DAgent 프로젝트**: 에이전틱 3D 파이프라인에서 비디오 모델을 3D 이해 백본으로 사용하는 아키텍처 패턴을 참고할 만하다. 명시적 3D 데이터 없이도 강건한 공간 추론이 가능하다는 점은 데이터 병목을 해소하는 실질적 방법이다.
+**our 3D automation project 프로젝트**: 에이전틱 3D 파이프라인에서 비디오 모델을 3D 이해 백본으로 사용하는 아키텍처 패턴을 참고할 만하다. 명시적 3D 데이터 없이도 강건한 공간 추론이 가능하다는 점은 데이터 병목을 해소하는 실질적 방법이다.
 
 코드+모델이 모두 공개되어 있어 **즉시 실험 가능**. Apache-2.0 라이선스로 상용 활용도 가능.

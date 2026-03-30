@@ -1,5 +1,5 @@
 ---
-author: OIKBAS Auto-Publisher
+author: MinHanr
 categories:
 - Research
 date: '2026-03-29'
@@ -7,8 +7,6 @@ draft: false
 slug: 260329-davinci-magihuman-singlestream-audiovideo-generation-dvmh
 tags:
 - AI_R&D_Paper
-- domain/video
-- domain/audio
 - tech/T2V
 - tech/attention
 - tech/video-editing
@@ -69,11 +67,11 @@ title: 'daVinci-MagiHuman: Single-Stream Audio-Video Generative Foundation Model
 | 라이선스 | Apache-2.0 (상용 가능) |
 | 요구사양 | H100 권장 (1080p). 256p는 가벼운 GPU 가능 |
 
-## 나에게 주는 시사점
+## Practical Implications
 
-**Memesis 프로젝트에 직접적 임팩트.** 단일 스트림으로 오디오+비디오 동시 생성이 가능한 오픈소스 모델이 등장했다. 특히 human-centric 시나리오에서 표정 연기, 발화-표정 조화, 신체 모션, 오디오-비디오 싱크를 모두 처리한다는 점이 핵심이다. Apache-2.0이라 상용 파이프라인에 바로 통합 가능하며, Wan2.2 VAE 기반이므로 기존 ComfyUI 워크플로우와의 연동도 기대된다.
+**our video generation project 프로젝트에 직접적 임팩트.** 단일 스트림으로 오디오+비디오 동시 생성이 가능한 오픈소스 모델이 등장했다. 특히 human-centric 시나리오에서 표정 연기, 발화-표정 조화, 신체 모션, 오디오-비디오 싱크를 모두 처리한다는 점이 핵심이다. Apache-2.0이라 상용 파이프라인에 바로 통합 가능하며, Wan2.2 VAE 기반이므로 기존 ComfyUI 워크플로우와의 연동도 기대된다.
 
-**CharacterShift와의 시너지**: human animation + 다국어 음성 생성 기능은 캐릭터 교체 후 리립싱크/더빙에 바로 활용 가능. 기존 ByteDance Seedance2.0이나 Alibaba FunCineForge 대비 완전 오픈소스라는 점이 큰 차별점.
+**our character replacement project와의 시너지**: human animation + 다국어 음성 생성 기능은 캐릭터 교체 후 리립싱크/더빙에 바로 활용 가능. 기존 ByteDance Seedance2.0이나 Alibaba FunCineForge 대비 완전 오픈소스라는 점이 큰 차별점.
 
 HuggingFace 트렌딩 스코어 222, 115 upvotes — 커뮤니티 관심도 높음.
 
