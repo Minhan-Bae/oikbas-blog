@@ -1,7 +1,7 @@
 baseURL = "https://minhan-bae.github.io/oikbas-blog/"
 title = "OIKBAS Lab"
 theme = "PaperMod"
-defaultContentLanguage = "en"
+defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 
 # ── 다국어 설정 ──────────────────────────────────────
@@ -9,7 +9,7 @@ defaultContentLanguageInSubdir = false
   [languages.en]
     languageCode = "en"
     languageName = "English"
-    weight = 1
+    weight = 2
     title = "OIKBAS Lab"
     [languages.en.params]
       description = "AI / VFX / Creative Tech Research & Projects"
@@ -35,7 +35,7 @@ defaultContentLanguageInSubdir = false
   [languages.ko]
     languageCode = "ko"
     languageName = "Korean"
-    weight = 2
+    weight = 1
     title = "OIKBAS Lab"
     [languages.ko.params]
       description = "AI / VFX / Creative Tech 기술 리서치와 프로젝트 기록"
