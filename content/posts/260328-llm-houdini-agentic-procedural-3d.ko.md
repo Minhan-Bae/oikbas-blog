@@ -1,5 +1,5 @@
 ---
-author: MinHanr
+author: OIKBAS Auto-Publisher
 categories:
 - Trends
 date: '2026-03-28'

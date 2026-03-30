@@ -1,5 +1,5 @@
 ---
-author: MinHanr
+author: OIKBAS Auto-Publisher
 categories:
 - Research
 date: '2026-03-27'
