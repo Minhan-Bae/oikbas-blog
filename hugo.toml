@@ -6,32 +6,6 @@ defaultContentLanguageInSubdir = false
 
 # ── 다국어 설정 ──────────────────────────────────────
 [languages]
-  [languages.en]
-    languageCode = "en"
-    languageName = "English"
-    weight = 2
-    title = "OIKBAS Lab"
-    [languages.en.params]
-      description = "AI / VFX / Creative Tech Research & Projects"
-    [languages.en.params.homeInfoParams]
-      Title = "OIKBAS Lab"
-      Content = "Research notes and project logs on AI, VFX, and Creative Technology"
-    [[languages.en.menu.main]]
-      identifier = "research"
-      name = "Research"
-      url = "/tags/research/"
-      weight = 10
-    [[languages.en.menu.main]]
-      identifier = "project"
-      name = "Project"
-      url = "/tags/project/"
-      weight = 20
-    [[languages.en.menu.main]]
-      identifier = "archive"
-      name = "Archive"
-      url = "/archives/"
-      weight = 30
-
   [languages.ko]
     languageCode = "ko"
     languageName = "Korean"
@@ -43,24 +17,50 @@ defaultContentLanguageInSubdir = false
       Title = "OIKBAS Lab"
       Content = "AI, VFX, Creative Technology에 대한 기술 리서치와 프로젝트 기록"
     [[languages.ko.menu.main]]
-      identifier = "research"
-      name = "Research"
-      url = "/tags/research/"
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
       weight = 10
-    [[languages.ko.menu.main]]
-      identifier = "project"
-      name = "Project"
-      url = "/tags/project/"
-      weight = 20
     [[languages.ko.menu.main]]
       identifier = "archive"
       name = "Archive"
       url = "/archives/"
+      weight = 20
+    [[languages.ko.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/tags/"
+      weight = 30
+
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 2
+    title = "OIKBAS Lab"
+    [languages.en.params]
+      description = "AI / VFX / Creative Tech Research & Projects"
+    [languages.en.params.homeInfoParams]
+      Title = "OIKBAS Lab"
+      Content = "Research notes and project logs on AI, VFX, and Creative Technology"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "archive"
+      name = "Archive"
+      url = "/en/archives/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/en/tags/"
       weight = 30
 
 # ── 공통 파라미터 ────────────────────────────────────
 [params]
-  author = "MinHan Bae"
+  author = "MinHanr"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
